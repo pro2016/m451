@@ -5,4 +5,6 @@
     // ViewBag.Title = "Index Page";
 }
 @model maybe451.Models.Success
-<h2>Victory at last!, @Model.name</h2>
+<h2>Victory at last!</h2>
+
+@Html.TextBoxFor(x => x.name, new { maxlength = "50", size = "50" })
