@@ -13,7 +13,7 @@ namespace maybe451.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View();
+            return View(new Success());
         }
         
         public IActionResult Welcome(string name, int numTimes = 1) 
